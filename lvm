@@ -1,0 +1,8 @@
+lvextend  [参数] 	LogicalVolume[Path] [ PhysicalVolumePath... ]
+-l +  ：指定逻辑卷的LE个数，如 -l +200
+-L + ：表示增加多少空间，如 -L +15G ，单位有bBsSkKmMgGtTpPeE
+-l +100%FREE	：表示增加vg的全部可用空间
+
+
+pvcreate命令不存在解决方案
+安装lvm2
